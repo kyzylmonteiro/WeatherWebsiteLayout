@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Weather</h1>
+<ul>
+		<li><a class="active" href="Mausam.html">Home</a></li>
+		<li><a href="Contactus.html">Contact us</a></li>
+		<li><a href="Aboutus.html">About us</a></li>
+	</ul>
+    <a href="Mausam.html"; class="spl" ; style="top:270px; border-top-right-radius: 20px; background-color: gray">Current</a>
+	<a href="Cities.html"; class="spl" ; style="top:317px; clear: left;">Cities</a>
+	<a href="States.html"; class="spl" ; style="top:364px; border-bottom-right-radius: 20px;clear: left;">States</a>
+	<br><br><br><br><br><br>
+<div class="main">
+    <div id="search">
+        <label for="city">City Name</label>
+        <input type="text" id="city">
+        <button type="button">Show Weather</button>
+    </div>
+    <div id="load">Loading...</div>
+    <div id="weather">
+        <h2 id="weatherCity">City Name</h2>
+
+        <div id="weatherDescription">Weather</div>
+        <div id="weatherTemperature">Temperature</div>
+
+    </div>
+</div>
+<script src="init.js"></script>
+<script src="weather-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
